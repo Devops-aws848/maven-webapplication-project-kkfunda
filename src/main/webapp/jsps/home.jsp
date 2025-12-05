@@ -15,7 +15,7 @@
     }
     header {
         background: linear-gradient(90deg, #007bff, #00c6ff);
-        color: white;
+        color: yellow;
         padding: 20px;
         text-align: center;
     }
@@ -46,7 +46,11 @@
 <body>
 
 <header>
+<<<<<<< HEAD
     <h1>🚀 SUNRISE OFFSET PRINTS 🚀</h1>
+=======
+    <h1>🚀 THEPRINT OFFSET   🚀</h1>
+>>>>>>> feature2
     <h3>Printing | Quality | Delivery</h3>
 </header>
 
