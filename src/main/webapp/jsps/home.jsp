@@ -46,7 +46,7 @@
 <body>
 
 <header>
-    <h1>🚀 SUNRISE PRINTERS 🚀</h1>
+    <h1>🚀 SUNRISE OFFSET PRINTERS 🚀</h1>
     <h3>Printing | Quality | Delivery</h3>
 </header>
 
