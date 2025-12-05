@@ -47,7 +47,6 @@
 
 <header>
 
-    <h1>🚀 SUNRISE OFFSET PRINTS 🚀</h1>
     <h1>🚀 THEPRINT OFFSET   🚀</h1>
     <h3>Printing | Quality | Delivery</h3>
 </header>
