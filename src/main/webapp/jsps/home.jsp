@@ -48,7 +48,7 @@
 <header>
 
     <h1>🚀 THEPRINT-OFFSET PRINTER  🚀</h1>
-    <h2>🚀 YOUR GROWTH OUR PRINT</h2>
+    <h2> YOUR GROWTH OUR PRINT</h2>
 
     <h3>Printing | Quality | Delivery</h3>
 </header>
