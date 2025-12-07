@@ -80,7 +80,7 @@
         <img src="images/kkfunda.jpg" alt="KK FUNDA Logo" width="120" class="mb-3 rounded-circle shadow">
         <h4>SUNRISE PRINTERS</h4>
         <p><b>Address:</b> GANDHINAGAR, VIJAYAWADA</p>
-        <p><b>Phone:</b> +91-9676791252</p>
+        <p><b>Phone:</b> +91-9441655311</p>
         <p><b>Email:</b> <a href="mailto:SUNRISEPRINTERS@gmail.com">sunriseprintersOB@gmail.com</a></p>
         <a href="mailto:Sunriseprinters@gmail.com" class="btn btn-primary mt-2">📧 Mail to sunriseprinters</a>
     </div>
