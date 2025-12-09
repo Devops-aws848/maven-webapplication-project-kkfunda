@@ -47,7 +47,7 @@
 
 <header>
 
-    <h1>🚀 THEPRINT-OFFSET PRINT  🚀</h1>
+    <h1>🚀 THEPRINT PRINT  🚀</h1>
     <h2> OUR PRINT YOUR VISIONORY </h2>
 
     <h3>Printing | Quality | Delivery</h3>
