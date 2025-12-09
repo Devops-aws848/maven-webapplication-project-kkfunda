@@ -47,7 +47,7 @@
 
 <header>
 
-    <h1>🚀 PRINT🚀</h1>
+    <h1>🚀 THEPRINT🚀</h1>
     <h2> OUR PRINT YOUR VISIONORY </h2>
 
     <h3>Printing | Quality | Delivery</h3>
