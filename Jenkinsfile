@@ -19,6 +19,7 @@ node
     }
     stage('quality')
     {
+        notifyBuild('STARTED')
         sh "${mvn}/bin/mvn sonar:sonar"
     }
     
