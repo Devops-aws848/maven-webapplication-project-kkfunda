@@ -46,7 +46,7 @@
 <body>
 
 <header>
-    <h1>THEPRINTs</h1>
+    <h1>THEPRINT SUNRISE</h1>
     <h3>Printing | Quality | Delivery</h3>
 </header>
 
