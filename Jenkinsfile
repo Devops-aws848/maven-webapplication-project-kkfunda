@@ -26,7 +26,7 @@ node
     {
       sh    """
         
-        curl -u admin1:password \
+        curl -u admin:password \
         --upload-file /var/lib/jenkins/workspace/theprint/target/maven-web-application.war \
         "http://52.66.247.188:8080/manager/text/deploy?path=/maven-web-application&update=trye"
         """
