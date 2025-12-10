@@ -8,7 +8,7 @@ node
     {
         notifyBuild('STARTED')
         git branch: 'feature2', url: 'https://github.com/Devops-aws848/maven-webapplication-project-kkfunda.git'
-    }
+     }
      stage('compiler')
     {
         sh "${mvn}/bin/mvn clean compile"
@@ -31,9 +31,8 @@ node
         "http://52.66.247.188:8080/manager/text/deploy?path=/maven-web-application&update=trye"
         """
      }
-    }     
- 
- catch (e) {
+    }   
+    catch (e) {
    
        currentBuild.result = "FAILED"
 
@@ -63,3 +62,7 @@ def notifyBuild(String buildStatus = 'STARTED') {
     color = 'RED'
     colorCode = '#FF0000'
   }
+
+slackSend (color: colorCode, message: summary, channel: '#theprint')
+  
+}
