@@ -1,5 +1,7 @@
 pipeline
 {
+    try
+   {  
     agent any
     tools
     {
@@ -49,13 +51,22 @@ pipeline
         steps
         {
           sh """
-          curl -u admin1:password \
+          curl -u admin:password \
           --upload-file /var/lib/jenkins/workspace/theprint/target/maven-web-application.war \
           "http://52.66.247.188:8080/manager/text/deploy?path=/maven-web-application&update=trye" 
           """
         }
     }    
  }
+   } //try block end
+   catch (e) {
+   
+       currentBuild.result = "FAILED"
+
+  } finally {
+    // Success or failure, always send notifications
+    notifyBuild(currentBuild.result)       //function calling
+  }     
         
 }
 def notifyBuild(String buildStatus = 'STARTED') {
