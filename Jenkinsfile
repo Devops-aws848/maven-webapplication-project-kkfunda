@@ -6,8 +6,7 @@ pipeline
     {
     maven "mvn"    
     }
-    try
-    { 
+    
   stages
    {
        
@@ -60,16 +59,6 @@ pipeline
         }
     }    
  }
-   } //try block end
-   catch (e) {
-   
-       currentBuild.result = "FAILED"
-
-  } finally {
-    // Success or failure, always send notifications
-    notifyBuild(currentBuild.result)       //function calling
-  }     
-        
 }
 def notifyBuild(String buildStatus = 'STARTED') {
   // build status of null means successful
