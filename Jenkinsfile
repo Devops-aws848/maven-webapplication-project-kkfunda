@@ -1,15 +1,15 @@
 pipeline
 {
 
-    agent any
-    try
-     {    
+    agent any  
     tools
     {
     maven "mvn"    
     }
   stages
    {
+       try
+       {  
       stage('git checkout')
       {
         steps
