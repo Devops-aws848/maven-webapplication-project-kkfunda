@@ -6,10 +6,11 @@ pipeline
     {
     maven "mvn"    
     }
+    try
+    { 
   stages
    {
-       try
-       {  
+       
       stage('git checkout')
       {
         steps
