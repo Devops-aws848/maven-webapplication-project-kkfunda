@@ -1,8 +1,9 @@
 pipeline
 {
-    try
-   {  
+
     agent any
+    try
+     {    
     tools
     {
     maven "mvn"    
