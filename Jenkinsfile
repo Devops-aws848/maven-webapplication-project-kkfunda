@@ -59,6 +59,26 @@ pipeline
         }
     }    
  }
+    post {
+  success {
+
+    script
+    {
+     notifyBuild(currentBuild.result)
+    }
+    
+  }
+  failure {
+
+  script
+  {
+    notifyBuild(currentBuild.result)
+
+  }
+   
+  }
+}
+
 }
 def notifyBuild(String buildStatus = 'STARTED') {
   // build status of null means successful
