@@ -15,7 +15,7 @@ pipeline
         steps
         {
             notifyBuild('STARTED')
-            git branch: 'feature1', url: 'https://github.com/Devops-aws848/maven-webapplication-project-kkfunda.git'
+            git branch: 'qa_feature1', url: 'https://github.com/Devops-aws848/maven-webapplication-project-kkfunda.git'
         }
       }
      
@@ -56,6 +56,13 @@ pipeline
           --upload-file /var/lib/jenkins/workspace/Bsnl/target/maven-web-application.war \
           "http://13.234.67.81:8080/manager/text/deploy?path=/maven-web-application&update=trye" 
           """
+        }
+    } 
+       stage('Build_bsnl_uat')
+    {
+        steps
+        {
+          build job: 'Bsnl_uat_scripted pipeline'
         }
     }    
  }
