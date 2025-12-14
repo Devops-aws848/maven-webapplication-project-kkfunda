@@ -62,7 +62,7 @@ pipeline
     {
         steps
         {
-          build job: 'Bsnl_uat_scripted pipeline'
+          build job: 'uat_feature1'
         }
     }    
  }
