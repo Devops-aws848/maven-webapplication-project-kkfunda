@@ -62,7 +62,7 @@ pipeline
     {
         steps
         {
-          build job: 'Bsnl_qa_scripted pipeline'
+          build job: 'qa_feature1'
         }
     }    
  }
