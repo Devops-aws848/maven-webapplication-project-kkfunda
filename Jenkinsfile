@@ -15,7 +15,7 @@ pipeline
         steps
         {
             notifyBuild('STARTED')
-            git branch: 'feature1', url: 'https://github.com/Devops-aws848/maven-webapplication-project-kkfunda.git'
+            git branch: 'uat_feature1', url: 'https://github.com/Devops-aws848/maven-webapplication-project-kkfunda.git'
         }
       }
      
