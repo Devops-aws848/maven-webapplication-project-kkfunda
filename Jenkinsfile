@@ -57,6 +57,13 @@ pipeline
           "http://13.234.67.81:8080/manager/text/deploy?path=/maven-web-application&update=trye" 
           """
         }
+    } 
+       stage('Build_bsnl_qa')
+    {
+        steps
+        {
+          build job: 'Bsnl_qa_scripted pipeline'
+        }
     }    
  }
     post {
