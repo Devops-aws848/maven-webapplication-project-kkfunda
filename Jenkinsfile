@@ -66,7 +66,7 @@ pipeline
         }
     }    
  }
-}    
+    
     post {
   success {
 
@@ -85,7 +85,7 @@ pipeline
   }
    
   }
-}
+ }
 
 }
 def notifyBuild(String buildStatus = 'STARTED') {
