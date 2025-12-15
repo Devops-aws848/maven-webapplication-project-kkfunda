@@ -1,6 +1,8 @@
 pipeline
 {
-  agent nodes  
+  agent {
+    label 'nodes'
+  }
     tools
     {
     maven "mvn"    
